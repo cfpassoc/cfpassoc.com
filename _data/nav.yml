@@ -7,10 +7,10 @@
 - name: Why Join
   path: "#why"
   section_id: why
-- name: Works
+- name: Works2
   path: "#works"
   section_id: works
-- name: Team
+- name: Team2
   path: "#team"
   section_id: team
 - name: Blog

@@ -1,4 +1,4 @@
-Gemlock.lock
+Gemfile.lock
 .jekyll-metadata
 node_modules
 vendor
