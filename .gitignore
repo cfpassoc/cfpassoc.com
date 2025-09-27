@@ -1,2 +1,4 @@
-Gemlock.file
-bower_components/
+Gemlock.lock
+.jekyll-metadata
+node_modules
+vendor

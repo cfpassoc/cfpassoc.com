@@ -4,9 +4,9 @@
 - name: About
   path: "#about"
   section_id: about
-- name: Services
-  path: "#services"
-  section_id: services
+- name: Why Join
+  path: "#why"
+  section_id: why
 - name: Works
   path: "#works"
   section_id: works
