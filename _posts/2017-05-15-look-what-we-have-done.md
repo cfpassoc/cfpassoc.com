@@ -2,7 +2,7 @@
 layout: post
 title: "Look what we have done"
 images:
-  - /assets/images/@stock/blog-4.jpg
+  - /assets/images/@stock/news-4.jpg
 author: honryou
 categories:
   - jekyll

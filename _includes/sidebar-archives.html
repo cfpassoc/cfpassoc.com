@@ -8,7 +8,7 @@
       
       <li>
         {% assign hash = archive.name | date:"%Y-%m" %}
-        <a href='{{ 'blog/archives/#' | append:hash | relative_url }}'>{{ archive.name }}</a>
+        <a href='{{ 'news/archives/#' | append:hash | relative_url }}'>{{ archive.name }}</a>
         <span>({{ archive.items | size }})</span>
       </li>
 

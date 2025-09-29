@@ -2,7 +2,7 @@
 layout: post
 title: "A more arresting phenomenon is their dissimilarity."
 images:
-  - /assets/images/@stock/blog-3.jpg
+  - /assets/images/@stock/news-3.jpg
 author: honryou
 categories:
   - photography

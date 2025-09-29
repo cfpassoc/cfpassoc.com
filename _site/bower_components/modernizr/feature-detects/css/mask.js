@@ -7,7 +7,7 @@
   "builderAliases": ["css_mask"],
   "notes": [
     {
-      "name": "Webkit blog on CSS Masks",
+      "name": "Webkit news on CSS Masks",
       "href": "https://webkit.org/blog/181/css-masks/"
     },
     {

@@ -1463,3 +1463,8 @@ $topbar-media-query: "#{$screen} and (min-width:960px)";
 // $include-accessibility-classes: true;
 // $include-table-visibility-classes: true;
 // $include-legacy-visibility-classes: true;
+
+.f-topbar-fixed.shrink .top-bar .title-area img, .f-topbar-fixed.shrink .top-bar .title-area li img, .f-topbar-fixed.shrink .top-bar .title-area a img {
+  top: -3px;
+  position: absolute;
+}

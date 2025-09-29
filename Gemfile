@@ -8,8 +8,9 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
+ruby '3.1.4'
 gem 'jekyll', '~> 3.9.5'
-gem 'bundler', '~> 1.17.2'
+gem 'bundler', '~> 2.6'
 gem 'rexml'  # Keep this
 gem 'webrick'  # For serving on Ruby 3+
 gem 'jekyll-sass-converter'

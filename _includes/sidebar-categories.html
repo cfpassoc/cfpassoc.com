@@ -14,7 +14,7 @@
       {% assign name = cat | replace:'&#32;', ' ' %}
       {% assign hash = name | slugify %}
       <li>
-        <a href='{{ '/blog/categories/#' | append:hash | relative_url  }}'>{{ name | capitalize }}</a>
+        <a href='{{ '/news/categories/#' | append:hash | relative_url  }}'>{{ name | capitalize }}</a>
       </li>
     {% endfor %}
   </ul>

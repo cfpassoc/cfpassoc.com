@@ -13,7 +13,7 @@
       {% assign name = tag | replace:'&#32;', ' ' %}
       {% assign hash = name | slugify %}
       <li>
-        <a href='{{ '/blog/tags/#' | append:hash | relative_url  }}'>{{ name }}</a>
+        <a href='{{ '/news/tags/#' | append:hash | relative_url  }}'>{{ name }}</a>
       </li>
     {% endfor %}
   </ul>

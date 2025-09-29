@@ -78,13 +78,13 @@ jQuery(document).foundation();
 
 
     var defaultOpts = {
-      anchors: ["home", "philosophy", "services", "milestones", "works", "team", "blog", "contact"],
-      navigationTooltips: ["home", "philosophy", "services", "milestones", "works", "team", "blog", "contact"]
+      anchors: ["home", "philosophy", "services", "milestones", "works", "team", "news", "contact"],
+      navigationTooltips: ["home", "philosophy", "services", "milestones", "works", "team", "news", "contact"]
     };
 
     var personalOpts = {
-      anchors: ["home", "about", "services", "works", "blog", "contact"],
-      navigationTooltips: ["home", "about", "services", "works", "blog", "contact"]
+      anchors: ["home", "about", "services", "works", "news", "contact"],
+      navigationTooltips: ["home", "about", "services", "works", "news", "contact"]
     };
 
 
