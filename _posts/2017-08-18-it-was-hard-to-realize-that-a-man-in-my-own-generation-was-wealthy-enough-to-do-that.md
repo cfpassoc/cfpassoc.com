@@ -2,8 +2,8 @@
 layout: post
 title: "It was hard to realize that a man in my own generation was wealthy enough to do that."
 images:
-  - /assets/images/@stock/news-1.jpg
-  - /assets/images/@stock/news-2.jpg
+  - /assets/images/@stock/blog-1.jpg
+  - /assets/images/@stock/blog-2.jpg
 author: honryou
 categories:
   - misc
