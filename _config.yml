@@ -44,7 +44,7 @@ sass:
 
 incremental: false
 
-exclude: ['gulpfile.js', 'Gemfile', 'Gemfile.lock']
+exclude: ['gulpfile.js', 'Gemfile', 'Gemfile.lock', 'vendor/']
 
 collections:
   works:
