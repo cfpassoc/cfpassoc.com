@@ -10,7 +10,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 ruby '3.1.2'
 gem 'jekyll', '~> 3.9.5'
-gem 'bundler', '~> 2.6.9'
+gem 'bundler', '~> 2.3.7'
 gem 'webrick'  # For serving on Ruby 3+
 gem 'jekyll-sass-converter'
 
