@@ -1,60 +1,6 @@
+
 @charset "UTF-8";
-/*-----------------------------------
-[Table of Contents]
 
-1. @font-face
-2. jQuery UI CSS Framework 1.10.3
-   2.1. Layout helpers
-   2.2. Interaction Cues
-   2.3. Icons
-   2.4. States ans Images
-   2.5. Misc visuals
-   2.6. Component containers
-   2.7. Interaction states
-   2.8. Interaction Cues
-   2.9. Icons
-   2.10. Misc visuals
-3. Some basic settings
-4. Shape for oblique line
-5. Big header
-6. Big social
-7. Smart appear
-8. Homepage video wrapper
-9. Button styles
-10. Top-bar
-11. Portfolio item meta
-12. Clients
-13. Contact page
-14. Pager
-15. Blog comments
-16. Sidebar
-17. Footer
-18. Diamond milestones
-19. Fullscreen header
-20. Bounce animation
-21. BarGraph
-22. BlogPost
-23. BoxedSlider
-24. BoxedTextSlider
-25. CallToAction
-26. Clients
-27. DefaultSlider
-28. FullscreenSlider
-29. Gallery
-30. IconText
-31. MasonryGallery
-32. Milestone
-33. PriceBox
-34. SectionHeader
-35. StaggerGallery
-36. TeamMember
-37. Testimonials
-38. Timeline
-40. Media query
-
-
-
- ------------------------------------*/
 h1 {
   display: block; }
 
@@ -3874,7 +3820,7 @@ body {
 .members, .member-decs {
   margin: 0 auto;
   max-width: 1600px;
-  text-align: center;
+  text-align: left;
   overflow: auto;
 }
 

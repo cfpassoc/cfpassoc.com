@@ -4,15 +4,15 @@
 - name: About
   path: "#about"
   section_id: about
-- name: Why Join
-  path: "#why"
-  section_id: why
-- name: Why
-  path: "#works"
+- name: Benefits
+  path: "#benefits"
+  section_id: testimonials
+- name: Testimonials
+  path: "#testimonials"
   section_id: works
-- name: Team2
-  path: "#team"
-  section_id: team
+- name: How to Join
+  path: "#join"
+  section_id: join
 - name: News
   path: /news/
   section_id: news
