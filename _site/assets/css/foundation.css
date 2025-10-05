@@ -970,7 +970,7 @@ select {
   padding: 1rem 1.71429rem 1rem 1rem;
   font-size: 0.92857rem;
   transition: opacity 300ms ease-out;
-  background-color: #edb713;
+  background-color: #ffb9cd;
   border-color: #cd9e10;
   color: #FFFFFF; }
   .alert-box .close {
@@ -1303,11 +1303,11 @@ select {
     font-size: 0.78571rem;
     line-height: 0.78571rem;
     text-transform: uppercase;
-    color: #edb713; }
+    color: #ffb9cd; }
     .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
       text-decoration: underline; }
     .breadcrumbs > * a {
-      color: #edb713; }
+      color: #ffb9cd; }
     .breadcrumbs > *.current {
       cursor: default;
       color: #333333; }
@@ -1359,8 +1359,8 @@ button, .button {
   padding-bottom: 0.92857rem;
   padding-left: 1.71429rem;
   font-size: 1.14286rem;
-  background-color: #edb713;
-  border-color: #edb713;
+  background-color: #ffb9cd;
+  border-color: #ffb9cd;
   color: #FFFFFF;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
@@ -1440,8 +1440,8 @@ button, .button {
   button.round, .button.round {
     border-radius: 1000px; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #edb713;
-    border-color: #edb713;
+    background-color: #ffb9cd;
+    border-color: #ffb9cd;
     color: #FFFFFF;
     cursor: default;
     opacity: 0.7;
@@ -1451,7 +1451,7 @@ button, .button {
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       color: #FFFFFF; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #edb713; }
+      background-color: #ffb9cd; }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #e7e7e7;
       border-color: #b9b9b9;
@@ -2876,13 +2876,13 @@ label.error {
   .icon-bar > * i {
     color: #FFFFFF; }
   .icon-bar > a:hover {
-    background: #edb713; }
+    background: #ffb9cd; }
     .icon-bar > a:hover label {
       color: #FFFFFF; }
     .icon-bar > a:hover i {
       color: #FFFFFF; }
   .icon-bar > a.active {
-    background: #edb713; }
+    background: #ffb9cd; }
     .icon-bar > a.active label {
       color: #FFFFFF; }
     .icon-bar > a.active i {
@@ -3153,7 +3153,7 @@ kbd {
   margin-bottom: auto;
   padding: 0.28571rem 0.57143rem 0.28571rem;
   font-size: 0.78571rem;
-  background-color: #edb713;
+  background-color: #ffb9cd;
   color: #FFFFFF; }
   .label.radius {
     border-radius: 3px; }
@@ -3456,12 +3456,12 @@ ul.pagination {
     ul.pagination li.unavailable button:focus {
       background: transparent; }
     ul.pagination li.current a, ul.pagination li.current button {
-      background: #edb713;
+      background: #ffb9cd;
       color: #FFFFFF;
       font-weight: bold;
       cursor: default; }
       ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus {
-        background: #edb713; }
+        background: #ffb9cd; }
   ul.pagination li {
     float: left;
     display: block; }
@@ -3513,7 +3513,7 @@ ul.pagination {
       .panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
         line-height: 1.4; }
     .panel.callout a:not(.button) {
-      color: #edb713; }
+      color: #ffb9cd; }
       .panel.callout a:not(.button):hover, .panel.callout a:not(.button):focus {
         color: #cd9e10; }
   .panel.radius {
@@ -3573,7 +3573,7 @@ ul.pagination {
   padding: 0.14286rem;
   margin-bottom: 0.71429rem; }
   .progress .meter {
-    background: #edb713;
+    background: #ffb9cd;
     height: 100%;
     display: block; }
   .progress.secondary .meter {
@@ -3632,7 +3632,7 @@ ul.pagination {
     background: #FAFAFA;
     border-radius: 3px; }
     .range-slider.radius .range-slider-handle {
-      background: #edb713;
+      background: #ffb9cd;
       border-radius: 3px; }
       .range-slider.radius .range-slider-handle:hover {
         background: #d1a110; }
@@ -3640,7 +3640,7 @@ ul.pagination {
     background: #FAFAFA;
     border-radius: 1000px; }
     .range-slider.round .range-slider-handle {
-      background: #edb713;
+      background: #ffb9cd;
       border-radius: 1000px; }
       .range-slider.round .range-slider-handle:hover {
         background: #d1a110; }
@@ -3649,7 +3649,7 @@ ul.pagination {
     cursor: default;
     opacity: 0.7; }
     .range-slider.disabled .range-slider-handle, .range-slider[disabled] .range-slider-handle {
-      background: #edb713;
+      background: #ffb9cd;
       cursor: default;
       opacity: 0.7; }
       .range-slider.disabled .range-slider-handle:hover, .range-slider[disabled] .range-slider-handle:hover {
@@ -3672,7 +3672,7 @@ ul.pagination {
   cursor: pointer;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
-  background: #edb713; }
+  background: #ffb9cd; }
   .range-slider-handle:hover {
     background: #d1a110; }
 
@@ -3821,7 +3821,7 @@ dialog {
     font-weight: normal; }
     .side-nav li a:not(.button) {
       display: block;
-      color: #edb713;
+      color: #ffb9cd;
       margin: 0;
       padding: 0.5rem 1rem; }
       .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
@@ -3838,7 +3838,7 @@ dialog {
       list-style: none;
       border-top-color: white; }
     .side-nav li.heading {
-      color: #edb713;
+      color: #ffb9cd;
       font-size: 1rem;
       font-weight: bold;
       text-transform: uppercase; }
@@ -3959,7 +3959,7 @@ dialog {
     .sub-nav li.active a {
       border-radius: 3px;
       font-weight: normal;
-      background: #edb713;
+      background: #ffb9cd;
       padding: 0.21429rem 1.14286rem;
       cursor: default;
       color: #FFFFFF; }
@@ -4014,7 +4014,7 @@ dialog {
     -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
   .switch input:checked + label {
-    background: #edb713; }
+    background: #ffb9cd; }
   .switch input:checked + label:after {
     left: 2.25rem; }
   .switch label {
@@ -4031,7 +4031,7 @@ dialog {
   .switch label:after {
     background: #FFFFFF; }
   .switch input:checked + label {
-    background: #edb713; }
+    background: #ffb9cd; }
   .switch.large label {
     width: 5rem;
     height: 2.5rem; }
@@ -4213,7 +4213,7 @@ table {
   color: #333333; }
   .has-tip:hover, .has-tip:focus {
     border-bottom: dotted 1px #6b5308;
-    color: #edb713; }
+    color: #ffb9cd; }
   .has-tip.tip-left, .has-tip.tip-right {
     float: none !important; }
 
@@ -4250,7 +4250,7 @@ table {
     .tooltip.round > .nub {
       left: 2rem; }
   .tooltip.opened {
-    color: #edb713 !important;
+    color: #ffb9cd !important;
     border-bottom: dotted 1px #6b5308 !important; }
 
 .tap-to-close {
@@ -4437,8 +4437,8 @@ meta.foundation-mq-topbar {
         font-size: 1rem;
         padding-right: 1.42857rem;
         padding-left: 1.42857rem;
-        background-color: #edb713;
-        border-color: #edb713;
+        background-color: #ffb9cd;
+        border-color: #ffb9cd;
         color: #FFFFFF; }
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
           background-color: #be930f; }
@@ -4480,8 +4480,8 @@ meta.foundation-mq-topbar {
       font-size: 1rem;
       padding-right: 1.42857rem;
       padding-left: 1.42857rem;
-      background-color: #edb713;
-      border-color: #edb713;
+      background-color: #ffb9cd;
+      border-color: #ffb9cd;
       color: #FFFFFF; }
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
         background-color: #be930f; }
@@ -4912,7 +4912,7 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #edb713;
+  color: #ffb9cd;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {

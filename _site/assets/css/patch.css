@@ -218,7 +218,7 @@ body.posts .modBlogPost.big p {
   display: block;
   height: 1px;
   width: 35px;
-  background: #edb713;
+  background: #ffb9cd;
   margin: 10px 0 30px; 
 }
 
@@ -235,12 +235,12 @@ body.posts .modBlogPost.big p {
 }
 
 .post.sticky.modBlogPost.big .info a {
-  color: #edb713;
+  color: #ffb9cd;
 }
 
 .post.sticky.modBlogPost.big .button.boxed {
-  color: #edb713;
-  border-color: #edb713;
+  color: #ffb9cd;
+  border-color: #ffb9cd;
 }
 
 .post.sticky.modBlogPost.big .button.boxed:hover {

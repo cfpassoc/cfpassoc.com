@@ -7,7 +7,7 @@ h1 {
 /* Border animation */
 /*some basic settings */
 a {
-  color: #edb713;
+  color: #ffb9cd;
   -webkit-transition-property: color, background, border, text-decoration;
   -moz-transition-property: color, background, border, text-decoration;
   transition-property: color, background, border, text-decoration;
@@ -85,7 +85,7 @@ dd ul li a {
 }
 
 dd ul li a:hover {
-  color: #EDB713;
+  color: #ffb9cd;
 }
 
 
@@ -134,7 +134,7 @@ hr {
 }
 
 .full.yellow {
-  background: #EDB713;;
+  background: #ffb9cd;;
 }
 
 .full.left-half-bg {
@@ -227,7 +227,7 @@ ul.shortcode-list {
   ul.shortcode-list li {
     padding: 5px 0; }
   ul.shortcode-list i {
-    color: #edb713;
+    color: #ffb9cd;
     margin-right: 3px;
     float: left;
     padding: 5px 0; }
@@ -316,15 +316,15 @@ ul.shortcode-list {
     border-top-right-radius: 50%;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    background-color: #edb713;
-    border: 3px solid #edb713;
+    background-color: #ffb9cd;
+    border: 3px solid #ffb9cd;
     -webkit-transition: all, 0.2s, linear;
     -moz-transition: all, 0.2s, linear;
     transition: all, 0.2s, linear; }
     .big-social i:before {
       margin: 0; }
   .big-social i:hover {
-    border: 3px solid #edb713;
+    border: 3px solid #ffb9cd;
     background-color: rgba(237, 183, 19, 0); }
 
 
@@ -437,8 +437,8 @@ ul.shortcode-list {
   text-transform: capitalize;
   letter-spacing: 1px;
   color: #333;
-  background: #edb713;
-  border: 2px solid #edb713; }
+  background: #ffb9cd;
+  border: 2px solid #ffb9cd; }
 
 .button:hover {
   color: #333;
@@ -462,12 +462,12 @@ ul.shortcode-list {
   background: #333; }
 
 .button.boxed.yellow {
-  color: #edb713;
-  border: 2px solid #edb713; }
+  color: #ffb9cd;
+  border: 2px solid #ffb9cd; }
 
 .button.boxed.yellow:hover {
   color: #333;
-  background: #edb713; }
+  background: #ffb9cd; }
 
 /*Top bar */
 .top-bar {
@@ -710,7 +710,7 @@ ul.shortcode-list {
     -webkit-transition: all, 0.2s, linear;
     -moz-transition: all, 0.2s, linear;
     transition: all, 0.2s, linear;
-    color: #edb713; }
+    color: #ffb9cd; }
 
 .container .top-bar .title-area a {
   padding: 0; }
@@ -745,7 +745,7 @@ ul.shortcode-list {
     width: 40px;
     margin: 15px auto;
     height: 1px;
-    background: #EDB713;
+    background: #ffb9cd;
     display: block;
 }
 
@@ -771,13 +771,13 @@ ul.info {
   ul.info a {
     margin-right: 5px; }
   ul.info i {
-    border: 1px solid #edb713;
+    border: 1px solid #ffb9cd;
     padding: 5px;
     -webkit-transition: all, 0.1s, linear;
     -moz-transition: all, 0.1s, linear;
     transition: all, 0.1s, linear; }
     ul.info i:hover {
-      background: #edb713;
+      background: #ffb9cd;
       color: #fff; }
 
 .modal {
@@ -1124,7 +1124,7 @@ form input.error, form textarea.error {
   .pager a {
     color: #999; }
     .pager a:hover {
-      color: #edb713; }
+      color: #ffb9cd; }
   .pager .older {
     float: left; }
   .pager .newer {
@@ -1200,7 +1200,7 @@ form input.error, form textarea.error {
     -webkit-transition: all, 0.2s, linear;
     -moz-transition: all, 0.2s, linear;
     transition: all, 0.2s, linear;
-    color: #edb713; }
+    color: #ffb9cd; }
   #footer input.email-address {
     padding: 5px 15px;
     height: 3.3rem;
@@ -1293,7 +1293,7 @@ form input.error, form textarea.error {
 }
 p.small-title {
     text-transform: uppercase;
-    color: #EDB713;
+    color: #ffb9cd;
     margin-bottom: 30px;
     letter-spacing: 4px;
     font-size: 14px;
@@ -1317,11 +1317,11 @@ p.small-title {
   .fullscreen .layer h1 span.sec {
     /*font-style: italic;*/
     /*font-weight: normal;*/
-    /*color: #EDB713;*/
+    /*color: #ffb9cd;*/
   }
 
   .fullscreen .layer h1 span.thir {
-    /*color: #EDB713;*/
+    /*color: #ffb9cd;*/
   }
 
   .fullscreen .layer h1::after {
@@ -1329,11 +1329,11 @@ p.small-title {
     width: 40px;
     margin: 20px 0 0;
     height: 1px;
-    background: #EDB713;
+    background: #ffb9cd;
     display: block;
   }
     .fullscreen .layer h1 strong {
-      color: #edb713;
+      color: #ffb9cd;
       -webkit-transition-property: all;
       -moz-transition-property: all;
       transition-property: all;
@@ -1562,7 +1562,7 @@ p.small-title {
     #section0 .scroll-down i {
       width: 30px;
       font-size: 24px;
-      color: #edb713; }
+      color: #ffb9cd; }
 
 #section1 .box {
   top: -150px;
@@ -1742,7 +1742,7 @@ p.small-title {
       -webkit-transition: all, 0.2s, linear;
       -moz-transition: all, 0.2s, linear;
       transition: all, 0.2s, linear;
-      color: #edb713;
+      color: #ffb9cd;
       background: none; }
 
 .section.active #footer {
@@ -1806,7 +1806,7 @@ body {
     color: #999; }
   .modBarGraph .bars p.highlighted {
     width: 0;
-    background: #EDB713;
+    background: #ffb9cd;
     height: 6px;
     margin-bottom: 30px; }
 
@@ -2028,13 +2028,13 @@ body {
   .modBlogPost h4 a, .modBlogPost h3 a {
     color: #333; }
     .modBlogPost h4 a:hover, .modBlogPost h3 a:hover {
-      color: #edb713; }
+      color: #ffb9cd; }
   .modBlogPost h3::after {
     content: "";
     display: block;
     height: 1px;
     width: 35px;
-    background: #edb713;
+    background: #ffb9cd;
     margin: 10px 0 30px; }
   .modBlogPost .date {
     font-size: 14px;
@@ -2075,7 +2075,7 @@ body {
     .modBlogPost.big h3 a {
       color: #333; }
       .modBlogPost.big h3 a:hover {
-        color: #edb713; }
+        color: #ffb9cd; }
   .modBlogPost.big h3::after {
     width: 60px; }
   .modBlogPost.big h4 {
@@ -2129,7 +2129,7 @@ body {
   .modBlogPost.alt h2 a {
     color: #333; }
     .modBlogPost.alt h2 a:hover {
-      color: #edb713; }
+      color: #ffb9cd; }
 
 .modBlogPostSlider .box {
   margin: 0 20px; }
@@ -2169,7 +2169,7 @@ body {
   .modBoxedTextSlider .box h3 {
     margin-bottom: 40px; }
   .modBoxedTextSlider .box i {
-    color: #EDB713;
+    color: #ffb9cd;
     font-size: 36px;
     width: 48px;
     height: 48px;
@@ -2938,9 +2938,9 @@ body {
     .modGallery .gallery-nav li a {
       color: #999; }
   .modGallery .gallery-nav li.current {
-    border: 1px solid #EDB713; }
+    border: 1px solid #ffb9cd; }
     .modGallery .gallery-nav li.current a {
-      color: #EDB713; }
+      color: #ffb9cd; }
 .modGallery ul.gallery img {
   width: 100%;
   -webkit-transform: scale(1);
@@ -3017,7 +3017,7 @@ body {
   position: absolute;
   top: 0;
   text-align: left;
-  background: #EDB713;
+  background: #ffb9cd;
   -webkit-transition: all, 0.4s, linear;
   -moz-transition: all, 0.4s, linear;
   transition: all, 0.4s, linear; }
@@ -3082,7 +3082,7 @@ body {
     border-top-right-radius: 50%;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    background: #EDB713;
+    background: #ffb9cd;
     -webkit-transition: all, 0.3s, ease-in-out;
     -moz-transition: all, 0.3s, ease-in-out;
     transition: all, 0.3s, ease-in-out; }
@@ -3090,7 +3090,7 @@ body {
       margin: 0; }
 .modIconText .icon-text-circle-alt:hover i {
   background: #333;
-  color: #EDB713;
+  color: #ffb9cd;
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);
@@ -3159,7 +3159,7 @@ body {
     background: #666;
     display: block; }*/
   .modIconText .icon-text-advanced i {
-    color: #EDB713;
+    color: #ffb9cd;
     font-size: 36px;
     width: 36px;
     height: 36px;
@@ -3279,7 +3279,7 @@ body {
       margin: 10px auto 0;
       height: 1px;
       display: block;
-      background: #EDB713; }
+      background: #ffb9cd; }
     .modMasonryGallery ul.gallery li a p {
       color: #fff;
       font-size: 0.875rem; }
@@ -3330,7 +3330,7 @@ body {
   .modMilestone i {
     font-size: 26px;
     color: #333;
-    background: #EDB713;
+    background: #ffb9cd;
     width: 90px;
     height: 90px;
     border-top-left-radius: 45px;
@@ -3384,7 +3384,7 @@ body {
     -moz-transition-duration: 1.1s;
     transition-duration: 1.1s; }
     .modMilestone.diamond .small-diamond .content {
-      background: #EDB713;
+      background: #ffb9cd;
       -webkit-transform: rotate(-45deg);
       -moz-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
@@ -3550,7 +3550,7 @@ body {
     margin: 0; }
 
 .modPriceBox.featured .info {
-  border-top: 4px solid #EDB713; }
+  border-top: 4px solid #ffb9cd; }
 
 .modPriceBox:hover {
   background-color: rgba(255, 255, 255, 0.7); }
@@ -3569,7 +3569,7 @@ body {
     width: 40px;
     margin: 15px auto;
     height: 1px;
-    background: #EDB713;
+    background: #ffb9cd;
     display: block; }
 
 .section-header.alt {
@@ -3727,7 +3727,7 @@ body {
     line-height: 2.5rem;
     padding: 5px; }
   .modTeamMember ul i:hover {
-    color: #EDB713; }
+    color: #ffb9cd; }
 .modTeamMember img {
   width: 100%; }
 .modTeamMember .overlay {
@@ -3837,7 +3837,7 @@ body {
 }
 
 .member-dec h4 {
-  color: #EDB713;
+  color: #ffb9cd;
   margin-bottom: 30px;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -4841,5 +4841,5 @@ body {
   background: rgba(255,255,255,0.1);
   padding: 20px;
   border-radius: 8px;
-  border-left: 4px solid #FFD700;
+  border-left: 4px solid #ffb9cd;
 }
