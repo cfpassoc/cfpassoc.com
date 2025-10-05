@@ -437,12 +437,15 @@ ul.shortcode-list {
   text-transform: capitalize;
   letter-spacing: 1px;
   color: #333;
+  font-weight: 600;
   background: #ffb9cd;
+  border-radius: 9999px;
   border: 2px solid #ffb9cd; }
 
 .button:hover {
-  color: #333;
-  background-color: rgba(237, 183, 19, 0.8); }
+  color: #000;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.8); }
 
 .button.boxed {
   color: #fff;
