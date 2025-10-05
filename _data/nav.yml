@@ -10,12 +10,6 @@
 - name: Testimonials
   path: "#testimonials"
   section_id: works
-- name: How to Join
+- name: Join
   path: "#join"
   section_id: join
-- name: News
-  path: /news/
-  section_id: news
-- name: Contact
-  path: "#contact"
-  section_id: contact
