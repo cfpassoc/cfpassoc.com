@@ -1392,6 +1392,3 @@ jQuery(document).foundation();
     }
   })
 })(Tc.$);
-
-
-

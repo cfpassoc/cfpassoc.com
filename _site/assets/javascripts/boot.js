@@ -11,5 +11,4 @@
         application.registerModules();
         application.start();
     });
-
 })(Tc.$);

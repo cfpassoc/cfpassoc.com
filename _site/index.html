@@ -29,7 +29,6 @@
     <a id='top'></a>
 
     
-
 <div class='transparent fullwidth white fixed contain-to-grid '>
   <nav class='top-bar onepage' data-options='' data-topbar=''>
     <ul class='title-area'>
@@ -49,46 +48,41 @@
     </div>
     <section class='top-bar-section closed'>
       <ul class='right'>
-
         
         <li>
           
-
           
-
           <a href="#top">Home</a>
         </li>
         
         <li>
           
-
           
-
-          <a href="#about">About</a>
-        </li>
-        
-        <li>
-          
-
-          
-
           <a href="#benefits">Benefits</a>
         </li>
         
         <li>
           
-
           
-
+          <a href="#wins">Wins</a>
+        </li>
+        
+        <li>
+          
+          
           <a href="#testimonials">Testimonials</a>
         </li>
         
         <li>
           
-
           
-
-          <a href="#join">Join</a>
+          <a href="#pricing">Pricing</a>
+        </li>
+        
+        <li>
+          
+          
+          <a href="#contact">Contact</a>
         </li>
         
       </ul>
@@ -116,7 +110,7 @@
         <br /><br />
 
        
-        <a class="button small" href='/index.html#join'>Join CFPA Today</a>
+        <a class="button small" href='/index.html'>Join CFPA Today</a>
         &nbsp;&nbsp;
 
         
@@ -197,7 +191,7 @@
         <i class='fa fa-comments'></i>
       </div>
     </div>
-    <h3>24/7 Support Network</h3>
+    <h3>24/7 Peer Support</h3>
     <p>Exclusive Slack community focused on operations, marketing, equipment troubleshooting, and peer support.</p>
     <div class="spacing"></div>
   </div>
@@ -267,12 +261,10 @@
   </div>
 </div>
 
-
+<a id='wins'></a>
 <div class="full no-overflow no-padding parallax" style="background-image: url(/assets/images/unsplash/ian-stauffer-bH7kZ0yazB0-unsplash.jpg)">
   <div class="full" style="width: 100% !important;position: inherit;background: rgba(0, 0, 0, 0.7);">
-
     <div class="section-title alt">
-
       <h2 class="white">Building Bridges, Not Walls</h2>
       <p class="small-title">Recent CFPA Wins for All Franchise Partners</p>
     </div>
@@ -309,19 +301,23 @@
 </div>
 
 
-
-
-<style>
-  /*.modIconText .icon-text-advanced::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.3); /* Black overlay with 30% opacity
-  }*/
-</style>
+<div class='full dark no-padding '>
+  <div class="four spacing"></div>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <h3 class="white">Ready to Join Us?</h3>
+      <p>
+        The CFPA is your partner in success. Together, we're building a stronger, more profitable future for every Crumbl franchise partner.
+      </p>
+    </div>
+    <div class='large-4 columns'>
+      <p>
+        <a class='button small boxed' href="https://membership.aafd.org/join/franchisee-membership-application/" target="_blank">Join CFPA Now</a>
+      </p>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
 
 
 
@@ -366,21 +362,184 @@
 </div>
 </div>
 
+<a id='pricing'></a>
 
-<div class='full dark no-padding '>
+<div class='full no-padding'>
   <div class="four spacing"></div>
   <div class='row'>
-    <div class='large-8 columns'>
-      <h3 class="white">Strength in Numbers. Real Results.</h3>
-      <p>
-        From playbooks to advocacy wins, CFPA helps you protect margins and make better decisions—together.
+    <div class='large-10 columns large-centered'>
+      <div class="section-title">
+        <h2>Simple, Transparent Pricing</h2>
+        <p class="small-title">Join the CFPA and AAFD—America's oldest and largest franchise association</p>
+      </div>
+    </div>
+  </div>
+  <div class="pricing-cards">
+    <div class="pricing-card">
+      <h3>Single Location</h3>
+      <div class="price">$52.50<span class="price-period">/month</span></div>
+      <ul class="pricing-features">
+        <li>Full CFPA membership</li>
+        <li>AAFD national benefits</li>
+        <li>Slack community access</li>
+        <li>Legal consultation</li>
+        <li>Group insurance eligibility</li>
+      </ul>
+      <a href="#calculator" class="button small">Calculate Cost</a>
+    </div>
+
+    <div class="pricing-card featured">
+      <h3>Multi-Unit Operator</h3>
+      <div class="price">$5<span class="price-period">/location after first</span></div>
+      <ul class="pricing-features">
+        <li>Everything in Single Location</li>
+        <li>Additional locations only $5/mo</li>
+        <li>Capped at 9 locations</li>
+        <li>10+ locations no extra charge</li>
+        <li>Additional member options available</li>
+      </ul>
+      <a href="#calculator" class="button small">Calculate Cost</a>
+    </div>
+  </div>
+  <div class="four spacing"></div>
+</div>
+
+
+<!-- Calculator Section -->
+<div class="calculator-section" id="calculator">
+  <div class="container">
+    <h2>Calculate Your Investment</h2>
+    <p class="section-intro">Transparent pricing with no hidden fees</p>
+
+    <div class="calculator-box">
+      <div class="form-group">
+        <label for="locations">Number of Locations:</label>
+        <input type="number" id="locations" min="1" max="20" value="1" onchange="calculateCost()">
+        <small style="color: #999; display: block; margin-top: 5px;">First location: $52.50/mo | Additional: $5/mo each (capped at 9)</small>
+      </div>
+
+      <div class="form-group">
+        <label for="partners">Additional Members (Partners/Spouses):</label>
+        <input type="number" id="partners" min="0" max="10" value="0" onchange="calculateCost()">
+        <small style="color: #999; display: block; margin-top: 5px;">$10/month per additional member</small>
+      </div>
+
+      <div class="form-group">
+        <label for="billing">Billing Cycle:</label>
+        <select id="billing" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px;" onchange="calculateCost()">
+          <option value="monthly">Monthly</option>
+          <option value="annual">Annual (Save 10% with yearly billing)</option>
+        </select>
+      </div>
+
+      <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0;">
+        <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+          <span>Base Membership:</span>
+          <span id="baseCost">$52.50</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+          <span>Additional Locations:</span>
+          <span id="locationsCost">$0.00</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+          <span>Additional Members:</span>
+          <span id="partnersCost">$0.00</span>
+        </div>
+        <hr style="margin: 15px 0; border: none; border-top: 1px solid #ddd;">
+        <div style="display: flex; justify-content: space-between; font-weight: bold; font-size: 1.2em;">
+          <span>Total:</span>
+          <span id="totalDisplay">$52.50/month</span>
+        </div>
+      </div>
+
+      <div class="total-cost">
+        Your Investment: <span id="totalCost">$52.50/month</span>
+      </div>
+
+      <a href="https://membership.aafd.org/join/franchisee-membership-application/" class="button small" style="margin-top: 40px; margin-top:30px; " target="_blank">Start Membership Application</a>
+      <p style="margin-top: 15px; color: #666; font-size: 0.9em;">
+        Select: Franchise System: <strong>Crumbl Cookies</strong> | Industry: <strong>Retail</strong>
       </p>
     </div>
-    <div class='large-4 columns'>
-      <p>
-        <a class='button small boxed' href='#join'>Join CFPA</a>
+  </div>
+</div>
+<script>
+  function calculateCost() {
+    const locations = parseInt(document.getElementById('locations').value);
+    const partners = parseInt(document.getElementById('partners').value);
+    const billing = document.getElementById('billing').value;
+
+    // Base cost for first location
+    let baseMonthlyCost = 52.50;
+
+    // Additional locations cost
+    let additionalLocationsCost = 0;
+    if (locations > 1) {
+      const additionalLocations = Math.min(locations - 1, 8); // Cap at 9 total
+      additionalLocationsCost = additionalLocations * 5;
+    }
+
+    // Additional members cost
+    let partnersCost = partners * 10;
+
+    // Total monthly cost
+    let totalMonthly = baseMonthlyCost + additionalLocationsCost + partnersCost;
+
+    // Update breakdown display
+    document.getElementById('baseCost').textContent = '$'+`${baseMonthlyCost.toFixed(2)}`;
+    document.getElementById('locationsCost').textContent = '$'+`${additionalLocationsCost.toFixed(2)}`;
+    document.getElementById('partnersCost').textContent = '$'+`${partnersCost.toFixed(2)}`;
+
+    // Calculate final cost based on billing cycle
+    let displayText = '';
+    let totalDisplay = '';
+
+    if (billing === 'annual') {
+      let annualCost = totalMonthly * 12;
+      displayText = '$'+`${annualCost.toFixed(2)}/year`;
+      totalDisplay = '$'+`${annualCost.toFixed(2)}/year`;
+      document.getElementById('totalDisplay').textContent = totalDisplay;
+    } else {
+      displayText = '$'+`${totalMonthly.toFixed(2)}/month`;
+      totalDisplay = '$'+`${totalMonthly.toFixed(2)}/month`;
+      document.getElementById('totalDisplay').textContent = totalDisplay;
+    }
+
+    document.getElementById('totalCost').textContent = displayText;
+  }
+
+  // Smooth scrolling for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+</script>
+
+
+<a id='contact'></a>
+<div class='full dark no-padding text-center white' style="background: #2c3e50;">
+  <div class="four spacing"></div>
+  <div class='row'>
+
+      <h3 class="white">Have Questions? Let's Talk</h3>
+      <p style="color:#fff;">
+        We're here to help you understand how CFPA can support your business. Reach out directly—we typically respond within 48 hours.
       </p>
+
+    <div style="background: rgba(255,255,255,0.1); display: inline-block; padding: 30px 50px; border-radius: 10px; backdrop-filter: blur(10px);margin:20px; margin-bottom: 40px;">
+      <p style="font-size: 0.9em; text-transform: uppercase; letter-spacing: 2px; opacity: 0.8; margin-bottom: 10px; color:#fff;">Email Us</p>
+      <a href="mailto:admin@cfpassoc.com" style="color: #FFD700; font-size: 1.8em; text-decoration: none; font-weight: 600; display: flex; align-items: center; justify-content: center; gap: 10px;">
+        <span style="font-size: 0.8em;">✉️</span> admin@cfpassoc.com
+      </a>
     </div>
+    <p class="small" style="color:#fff;">Whether you're a prospective member or current franchise partner with questions, we're just an email away.</p>
   </div>
   <div class='two spacing'></div>
 </div>
@@ -459,7 +618,7 @@
   <div id="footer" class='centered-text'>
     <div class='row'>
       <div class='large-12 columns'>
-        <h4>©2025 Wrap theme. All rights reserved.</h4>
+        <h4>©2025 CFPA. All rights reserved.</h4>
       </div>
     </div>
   </div>
@@ -477,14 +636,13 @@
 <script src="/assets/javascripts/jquery.appear.js" type="text/javascript"></script>
 <script src="/assets/javascripts/jquery.validate.js" type="text/javascript"></script>
 <script src="/assets/javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
-<script src="/assets/javascripts/modernizr.foundation.js" type="text/javascript"></script>
-<script src="/assets/javascripts/terrific-1.1.1.js" type="text/javascript"></script>
 <script src="/assets/javascripts/jquery.url.js" type="text/javascript"></script>
+<script src="/assets/javascripts/terrific-1.1.1.js" type="text/javascript"></script>
 <script src="/assets/javascripts/jquery.cookie.js" type="text/javascript"></script>
 <script src="/assets/javascripts/app.js" type="text/javascript"></script>
 <script src="/assets/javascripts/boot.js" type="text/javascript"></script>
 <script src="/assets/javascripts/wp.js" type="text/javascript"></script>
-<script src="/assets/javascripts/pricing.js" type="text/javascript"></script>
+
 
 
   </body>

@@ -18,11 +18,10 @@ js:
   - /assets/javascripts/jquery.appear.js
   - /assets/javascripts/jquery.validate.js
   - /assets/javascripts/jquery.easing.1.3.js
-  - /assets/javascripts/modernizr.foundation.js
-  - /assets/javascripts/terrific-1.1.1.js
+#  - /assets/javascripts/modernizr.foundation.js
   - /assets/javascripts/jquery.url.js
+  - /assets/javascripts/terrific-1.1.1.js
   - /assets/javascripts/jquery.cookie.js
   - /assets/javascripts/app.js
   - /assets/javascripts/boot.js
   - /assets/javascripts/wp.js
-  - /assets/javascripts/pricing.js

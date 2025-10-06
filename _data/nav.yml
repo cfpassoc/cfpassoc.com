@@ -1,15 +1,18 @@
 - name: Home
   path: "#top"
   section_id: home
-- name: About
-  path: "#about"
-  section_id: about
 - name: Benefits
   path: "#benefits"
   section_id: testimonials
+- name: Wins
+  path: "#wins"
+  section_id: wins
 - name: Testimonials
   path: "#testimonials"
-  section_id: works
-- name: Join
-  path: "#join"
-  section_id: join
+  section_id: Testimonials
+- name: Pricing
+  path: "#pricing"
+  section_id: pricing
+- name: Contact
+  path: "#contact"
+  section_id: contact

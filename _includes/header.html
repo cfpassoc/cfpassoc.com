@@ -3,7 +3,6 @@
 {% else %}
 {% assign classname='bg-black' %}
 {% endif %}
-
 <div class='transparent fullwidth white fixed contain-to-grid {{ classname }}'>
   <nav class='top-bar onepage' data-options='' data-topbar=''>
     <ul class='title-area'>
@@ -23,11 +22,9 @@
     </div>
     <section class='top-bar-section closed'>
       <ul class='right'>
-
         {% for item in site.data.nav %}
         <li>
           {% assign first = item.path | truncate:1,'' %}
-
           {% if first != '#' %}
           {% assign href = item.path | relative_url %}
           {% elsif page.onepage %}
@@ -35,7 +32,6 @@
           {% else %}
           {% assign href = 'index.html' | append:item.path | relative_url %}
           {% endif %}
-
           <a href="{{ href }}">{{ item.name }}</a>
         </li>
         {% endfor %}
