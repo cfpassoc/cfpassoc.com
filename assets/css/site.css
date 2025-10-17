@@ -4965,11 +4965,10 @@ select {
   color: #ffb9cd;
 }
 .total-cost {
-  font-size: 1.5em;
   color: #fff;
   background: #222;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 5px;
   padding: 10px 20px;
-  display: inline;
+  display: inline-block;
 }
