@@ -4,6 +4,9 @@
   {% include head.html %}
 
   <body class="{{ page.collection }}">
+  {% if jekyll.environment == 'production' and site.google_tags %}
+  {% include google-tags-body.html %}
+  {% endif %}
 
     <a id='top'></a>
 
